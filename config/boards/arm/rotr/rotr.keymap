@@ -22,7 +22,7 @@
 		one {
 			//PREV | PLAY/PAUSE | NEXT
 			bindings = <&kp END &lt 3 C_PP &kp HOME>;
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 		};
 		two {
 			//
