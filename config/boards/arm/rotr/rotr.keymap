@@ -24,10 +24,9 @@
 			b = <180>;
 		};
 		one {
-			// HOME | PLAY/PAUSE | END
-			// bindings = <&kp HOME &lt 2 F5 &kp END>;
-			bindings = <&kp HOME &lt 2 C_PP &kp END>;
-			sensor-bindings = <&inc_dec_kp DOWN UP>;
+			// HOME | F5 / REFRESH | END
+			bindings = <&kp HOME &lt 2 F5 &kp END>;
+			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 			ledoverride;
 			r = <020>;
         		g = <220>;
