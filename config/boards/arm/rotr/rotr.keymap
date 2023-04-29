@@ -26,7 +26,7 @@
 		};
 		two {
 			//
-			bindings = <&trans &lt 3 &trans &trans>;
+			bindings = <&rgb_ug RGB_OFF &lt 3 &trans &rgb_ug RGB_ON>;
 			//sensor-bindings = <&rgb_ug RGB_HUD RGB_HUI>;
 		};
 		shift {
