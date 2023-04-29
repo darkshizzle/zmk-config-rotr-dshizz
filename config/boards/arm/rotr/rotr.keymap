@@ -18,6 +18,8 @@
 			//PREV | PLAY/PAUSE | NEXT
 			bindings = <&kp C_PREV &lt 3 C_PP &kp C_NEXT>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			ledoverride;
+        		g = <0>;
 		};
 		one {
 			//PREV | PLAY/PAUSE | NEXT
@@ -30,6 +32,7 @@
 			//sensor-bindings = <&rgb_ug RGB_HUD RGB_HUI>;
 		};
 		shift {
+			label = "shift";
 			//
 			bindings = <&bt BT_CLR &trans &kp C_MUTE>;
 			sensor-bindings = <&def_lshft>;
