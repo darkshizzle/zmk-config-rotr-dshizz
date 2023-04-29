@@ -26,8 +26,8 @@
 		};
 		two {
 			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&rgb_ug RGB_BRD &lt 3 &trans &rgb_ug RGB_BRI>;
-			sensor-bindings = <&rgb_ug RGB_HUD RGB_HUI>;
+			bindings = <&rgb_ug RGB_BRD &lt 3 &trans &rgb_ug RGB_HUI>;
+			//sensor-bindings = <&rgb_ug RGB_HUD RGB_HUI>;
 		};
 		shift {
 			//PREV | PLAY/PAUSE | NEXT
